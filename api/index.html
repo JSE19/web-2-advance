@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h1 {
+        color: #333;
+      }
+      .user {
+        border-bottom: 2px solid #ccc;
+        padding: 10px 0;
+      }
+      .error404{
+        display: none; 
+        text-align: center; 
+        padding: 50px; 
+        font-family: Arial, sans-serif
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      
+
+      <div
+        style="
+          display: none;
+          background-color: antiquewhite;
+          padding: 10px;
+          border-radius: 5px 5px 5px 5px;
+        "
+        id="user-list">
+        <h1>User List</h1>
+      </div>
+      <div id="error" class="error404" >
+        <h1 style="font-size: 60px; color: #e74c3c;">404</h1>
+        <p style="font-size: 24px; color: #555;">Ooops! Something went wrong</p>
+        <p style="color: #888;">We couldn't Load the Data, Please check again</p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
